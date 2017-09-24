@@ -108,3 +108,43 @@ data class DataFile(val filename:String,val filetype:FileType=FileType.ASCII,val
         }
     }
 }
+
+
+//fun main(args : Array<String>) {
+//    val fn1="/Users/ndb338/StreamingReader/resources/stag_test_file.v.ebcdic"
+//    val fn2="/Users/ndb338/FOP/fontsafp.afp"
+//    val b=DataFile(fn1,FileType.F,256)
+//    var offset=0
+//    b.read.forEach {
+//        println("Next Record")
+//        offset=Dump(it as ArrayList<Int>,start=offset)
+//    }
+//}
+//
+//
+//fun main(args : Array<String>) {
+////    val a=Hex.XFF
+//    print("hello ${Xff}")
+////    genHexConst()
+//}
+//
+//
+//fun main(args : Array<String>) {
+////    println(sequence.take(7).toList()) // [0, 1, 3, 5, 8, 24, 72]
+//    val fn1="/Users/ndb338/StreamingReader/resources/stag_test_file.v.ebcdic"
+////    val a=DataFile("/Users/ndb338/StreamingReader/resources/emb.cpy")
+////    a.read.forEach { println(it) }
+//    val b=DataFile(fn1,FileType.V)
+//    var offset=0
+//    var record=0
+//    b.read.forEach {
+//        record+=1
+//        println("Record ${record}")
+////        println(it)
+//        offset=Dump(it as ArrayList<Int>,start=0)
+//        println()
+//    }
+////    println(asciiLineReader.take(4).toList())
+////    asciiLineReader.forEach { println(it) }
+//}
+//
